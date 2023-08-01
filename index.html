@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restorant Website</title>
+
+
+        <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <!-- ================ FONTAWESOME =============== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ========== REMIXICON ====================  -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">
+          <img src="/img/logo.png" alt="logo name">
+          Sushi
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#popular" class="nav-link">Popular</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#recently" class="nav-link">Recently</a>
+            </li>
+          </ul>
+
+          <!-- Close button  -->
+          <div class="nav-close" id="nav-close">
+           <img src="/MdiCloseCircle.svg">
+          </div>
+
+          <img src="/img/leaf-branch-4.png" alt="nav image" class="nav-img1">
+          <img src="/img/leaf-branch-3.png" alt="nav image" class="nav-img2">
+        </div>
+        
+        <div class="nav-buttons">
+          <!-- Theme change button  -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button  -->
+          <div class="nav-toggle" id="nav-toggle">
+            <img src="/RiApps2Line.svg">
+          </div>
+        </div>
+      </nav>
+    </header>
+  
+<!--==================== MAIN ====================-->
+    <main class="main">
+<!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <img src="/img/home-sushi-rolls.png" alt="" class="home-image">
+
+        <div class="home-data">
+          <h1 class="home-title">
+            Enjoy Delicious
+
+            <div>
+              <img src="/img/home-sushi-title.png" alt="">
+              Sushi Food
+            </div>
+          </h1>
+
+          <p class="home-description">
+            Enjoy a good with the best dishes in 
+            the restaurant and improve your day.
+          </p>
+
+          <a href="#" class="button">
+            Order Now <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <img src="/img/leaf-branch-2.png" alt="" class="home-leaf1">
+      <img src="/img/leaf-branch-4.png" alt="" class="home-leaf2">
+    </section>
+  
+<!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <div class="about-container container grid">
+        <div class="about-data">
+          <span class="section-subtitle">About Us</span>
+          <h2 class="section-title about-title">
+            <div>
+              We Provide
+              <img src="/img/about-sushi-title.png" alt="">
+            </div>
+
+            Healthy Food
+          </h2>
+
+          <p class="about-description">
+            Food comes to us from relatives, whether they have wings or roots. this is how we consider food, its also has a culture. it has a history that passes from generation to generation.
+          </p>
+        </div>
+
+       <img src="/img/about-sushi.png" alt="" class="about-img"> 
+      </div>
+      <img src="/img/leaf-branch-1.png" alt="" class="about-leaf">
+    </section>
+  
+<!--==================== POPULAR ====================-->
+    <section class="popular section" id="popular">
+      <span class="section-subtitle">The Best Food</span>
+      <h2 class="section-title">Popular Dishes</h2>
+
+      <div class="popular-container container grid">
+        <article class="popular-card">
+          <img src="/img/popular-onigiri.png" alt="" class="popular-img">
+
+          <h3 class="popular-name">Onigiri</h3>
+          <span class="popular-description">Japanese Dish</span>
+
+          <span class="popular-price">$10.99</span>
+
+          <button class="popular-button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="popular-card">
+          <img src="/img/popular-spring-rols.png" alt="" class="popular-img">
+
+          <h3 class="popular-name">Spring Rolls</h3>
+          <span class="popular-description">Japanese Dish</span>
+
+          <span class="popular-price">$15.99</span>
+
+          <button class="popular-button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+
+        <article class="popular-card">
+          <img src="/img/popular-sushi-rolls.png" alt="" class="popular-img">
+
+          <h3 class="popular-name">Suchi Rolls</h3>
+          <span class="popular-description">Japanese Dish</span>
+
+          <span class="popular-price">$19.99</span>
+
+          <button class="popular-button">
+            <i class="ri-shopping-bag-line"></i>
+          </button>
+        </article>
+      </div>
+    </section>
+  
+<!--==================== RECENTLY ====================-->
+    <section class="recently section" id="recently">
+      <div class="recently-container container grid">
+        <div class="recently-data">
+          <span class="section-subtitle">Recently Added</span>
+          <h2 class="section-title">
+            Sushi Samurai <br>
+            Salmon Cheese
+          </h2>
+
+          <p class="recently-description">
+            Take a look at what's new. and do not deprive yourself of a good meal, enjoy and be happy.
+          </p>
+
+          <a href="#" class="button">
+            Order Now <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <img src="/img/spinach-leaf.png" alt="" class="recently-data-img">
+        </div>
+
+        <img src="/img/recently-salmon-sushi.png" alt="" class="recently-img">
+      </div>
+      <img src="/img/leaf-branch-2.png" alt="" class="recently-leaf1">
+      <img src="/img/leaf-branch-3.png" alt="" class="recently-leaf2">
+    </section>
+  
+<!--==================== NEWSLETTER ===================-->
+    <section class="newsletter section">
+      <div class="newsletter-container container">
+        <div class="newsletter-content grid">
+          <img src="/img/newsletter-sushi.png" alt="" class="newsletter-img">
+
+          <div class="newsletter-data">
+            <span class="section-subtitle">Newsletter</span>
+            <h2 class="section-title">
+              Subscribe For <br>
+              Offer Updates
+            </h2>
+
+            <form action="" class="newsletter-form">
+              <input type="email" placeholder="Enter email" class="newsletter-input">
+
+              <button class="button newsletter-button">
+                Subscribe <i class="ri-send-plane-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <img src="/img/spinach-leaf.png" alt="" class="newsletter-spinach">
+      </div>
+    </section>
+          </main>
+  
+<!--==================== FOOTER ====================-->
+          <footer class="footer">
+            <div class="footer-container container grid">
+              <div>
+                <a href="#" class="footer-logo">
+                  <img src="/img/logo.png" alt="">
+                  Sushi
+                </a>
+
+                <p class="footer-description">
+                  Food for the body is not <br>
+                  enough. There must be food <br>
+                  for the soul.
+                </p>
+              </div>
+
+              <div class="footer-content">
+                <div>
+                  <h3 class="footer-title">Main Menu</h3>
+
+                  <ul class="footer-links">
+                    <li>
+                      <a href="#" class="footer-link">About</a>
+                    </li>
+                    
+                    <li>
+                      <a href="#" class="footer-link">Menus</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="footer-link">Offer</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="footer-link">Events</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="footer-title">Information</h3>
+
+                  <ul class="footer-links">
+                    <li>
+                      <a href="#" class="footer-link">Contact</a>
+                    </li>
+                    
+                    <li>
+                      <a href="#" class="footer-link">Order & Returns</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="footer-link">Videos</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="footer-link">Reservation</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="footer-title">Address</h3>
+
+                  <ul class="footer-links">
+                    <li class="footer-information">
+                      Av. Hacienda 1234 <br>
+                      Lima 4321, Peru
+                    </li>
+                    
+                    <li class="footer-information">
+                      9AM - 11PM
+                    </li>
+                     
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 class="footer-tittle">Social Media</h3>
+
+                  <ul class="footer-social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer-social-link">
+                      <i class="ri-facebook-circle-fill"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer-social-link">
+                      <i class="ri-instagram-fill"></i>
+                    </a>
+
+                    <a href="https://www.twitter.com/" target="_blank" class="footer-social-link">
+                      <i class="ri-twitter-fill"></i>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+              <img src="/img/spring-onion.png" alt="" class="footer-onion">
+              <img src="/img/spinach-leaf.png" alt="" class="footer-spinach">
+              <img src="/img/leaf-branch-4.png" alt="" class="footer-leaf">
+            </div>
+
+            <div class="footer-info container">
+              <div class="footer-card">
+                <img src="/img/footer-card-1.png" alt="">
+                <img src="/img/footer-card-2.png" alt="">
+                <img src="/img/footer-card-3.png" alt="">
+                <img src="/img/footer-card-4.png" alt="">
+              </div>
+
+              <span class="footer-copy">
+                &#169; Copyright Bedimcode. All rights reserved
+              </span>
+            </div>
+          </footer>
+  
+<!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  
+<!--=============== SCROLLREVEAL ===============-->
+<script src="https://unpkg.com/scrollreveal"></script>
+  
+<!--=============== MAIN JS ===============-->
+          <!-- <script src="index.js"></script> -->
+          <script src="App.js"></script>
+  
+  
+
+  
+</body>
+</html>
